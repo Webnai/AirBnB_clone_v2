@@ -10,7 +10,7 @@ from models.engine.db_storage import DBStorage
 
 class TestDBStorage(unittest.TestCase):
     """Class TestDBStorage for testing the database storage"""
-    
+
     def testPycodeStyle(self):
         """
         Test for pycodestyle compliance in DBStorage
