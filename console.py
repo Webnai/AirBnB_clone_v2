@@ -127,7 +127,6 @@ class HBNBCommand(cmd.Cmd):
                     arg_splited[1] = arg_splited[1].replace("_", " ")
                     .replace('"', '\\"')
                 kw[arg_splited[0]] = arg_splited[1]
-
         except SyntaxError:
             print("** class name missing **")
         except NameError:
